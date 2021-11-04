@@ -32,21 +32,19 @@ Send me any file I will save it in my Database. Also works for channel. Add me t
 
 🧑🏻‍💻 **Developer:** @AbirHasan2005
 
-👥 **Support Group:** [Linux Repositories](https://t.me/DevsZone)
+👥 **REQUEST GROUP:** [Cinema Company](https://t.me/cinemaforyou07)
 
-📢 **Updates Channel:** [Discovery Projects](https://t.me/Discovery_Updates)
+📢 **Updates Channel:** [file Bunker](https://t.me/joinchat/vUwe6gVIfQJmOTk1)
 """
 	ABOUT_DEV_TEXT = f"""
-🧑🏻‍💻 **Developer:** @AbirHasan2005
+🧑🏻‍💻 **Developer:** @anonymous7205
 
-Developer is Super Noob. Just Learning from Official Docs. Please Donate the developer for Keeping the Service Alive.
+i am suoer noob. Just Learning from Official Docs. 
 
-Also remember that developer will Delete Adult Contents from Database. So better don't Store Those Kind of Things.
-
-[Donate Now](https://www.paypal.me/AbirHasan2005) (PayPal)
+Also remember that I will Delete Adult Contents from Database. So better don't Store Those Kind of Things.
 """
 	HOME_TEXT = """
-Hi, [{}](tg://user?id={})\n\nThis is Permanent **File Store Bot**.
+Hi, [{}](tg://user?id={})\n\nI is Permanent **File Store Bot**.
 
 Send me any file I will give you a permanent Sharable Link. I Support Channel Also! Check **About Bot** Button.
 """

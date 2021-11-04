@@ -47,8 +47,8 @@ async def start(bot: Client, cmd: Message):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/DevsZone"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")
+                        InlineKeyboardButton("REQUEST GROUP", url="https://t.me/cinemaforyou07"),
+                        InlineKeyboardButton("uodate channel", url="https://t.me/joinchat/vUwe6gVIfQJmOTk1")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -88,8 +88,8 @@ async def main(bot: Client, message: Message):
                 return
 
         if message.from_user.id in Config.BANNED_USERS:
-            await message.reply_text("Sorry, You are banned!\n\nContact [Support Group](https://t.me/DevsZone)",
-                                     disable_web_page_preview=True)
+            await message.reply_text("Sorry, You are banned!\n\nContact [REQUEST GROUP](https://t.me/cinemaforyou07)",
+                                  disable_web_page_preview=True)
             return
 
         if Config.OTHER_USERS_CAN_SAVE_FILE is False:
@@ -282,7 +282,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/AbirHasan2005/PyroFilesStoreBot")
+                                             url="https://github.com/soymadip/FilesStoreBot.git")
                     ],
                     [
                         InlineKeyboardButton("Go Home", callback_data="gotohome"),
@@ -301,7 +301,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 [
                     [
                         InlineKeyboardButton("Source Codes of Bot",
-                                             url="https://github.com/AbirHasan2005/PyroFilesStoreBot")
+                                             url="https://github.com/soymadip/FilesStoreBot.git")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -319,8 +319,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/DevsZone"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")
+                        InlineKeyboardButton("REQUEST GROUP", url="https://t.me/cinemaforyou07"),
+                        InlineKeyboardButton("update channel", url="https://t.me/joinchat/vUwe6gVIfQJmOTk1")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
@@ -336,8 +336,8 @@ async def button(bot: Client, cmd: CallbackQuery):
                 user = await bot.get_chat_member(int(Config.UPDATES_CHANNEL), cmd.message.chat.id)
                 if user.status == "kicked":
                     await cmd.message.edit(
-                        text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/DevsZone).",
-                        parse_mode="markdown",
+                        text="Sorry Sir, You are Banned to use me. Contact my [REQUEST GROUP](https://t.me/cinemaforyou07).",
+                      parse_mode="markdown",
                         disable_web_page_preview=True
                     )
                     return
@@ -361,7 +361,7 @@ async def button(bot: Client, cmd: CallbackQuery):
                 return
             except Exception:
                 await cmd.message.edit(
-                    text="Something went Wrong. Contact my [Support Group](https://t.me/DevsZone).",
+                    text="Something went Wrong. Contact my [REQUEST GROUP](https://t.me/cinemaforyou07).,
                     parse_mode="markdown",
                     disable_web_page_preview=True
                 )
@@ -373,8 +373,8 @@ async def button(bot: Client, cmd: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Support Group", url="https://t.me/DevsZone"),
-                        InlineKeyboardButton("Bots Channel", url="https://t.me/Discovery_Updates")
+                        InlineKeyboardButton("REQUEST GROUP", url="https://t.me/cinemaforyou07"),
+                        InlineKeyboardButton("uodate channel", url="https://t.me/joinchat/vUwe6gVIfQJmOTk1")
                     ],
                     [
                         InlineKeyboardButton("About Bot", callback_data="aboutbot"),
