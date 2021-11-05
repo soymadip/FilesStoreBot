@@ -11,8 +11,8 @@ from handlers.helpers import str_to_b64
 async def ReplyForward(message: Message, file_id: int):
     try:
         await message.reply_text(
-            f"LOADING_______\n"
-            f"__︻╦╤─ - -__",
+            f"♨️_______\n"
+            f"__♨️__",
             disable_web_page_preview=True, quote=True)
     except FloodWait as e:
         await asyncio.sleep(e.x)
