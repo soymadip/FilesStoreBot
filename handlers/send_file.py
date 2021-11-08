@@ -8,15 +8,6 @@ from pyrogram.errors import FloodWait
 from handlers.helpers import str_to_b64
 
 
-async def ReplyForward(message: Message, file_id: int):
-    try:
-        await message.reply_text(
-            f"♨️_______\n"
-            f"__♨️__",
-            disable_web_page_preview=True, quote=True)
-    except FloodWait as e:
-        await asyncio.sleep(e.x)
-        await ReplyForward(message, file_id)
 
 
 async def MediaForward(bot: Client, user_id: int, file_id: int):
