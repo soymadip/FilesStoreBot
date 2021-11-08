@@ -22,7 +22,13 @@ async def MediaForward(bot: Client, user_id: int, file_id: int):
         await asyncio.sleep(e.x)
         return MediaForward(bot, user_id, file_id)
 
+ async def send_message(bot: Client, user_id: int, file_id: int):
+           bot.send_message(
+            Config.LOG_CHANNEL,
+            f"#NEW_USER: \n\nNew User [{cmd.from_user.first_name}](tg://user?id={cmd.from_user.id}) started @{Config.BOT_USERNAME} !!"
+        )
 
 async def SendMediaAndReply(bot: Client, user_id: int, file_id: int):
-    sent_message = await MediaForward(bot, user_id, file_id)
+    sent_message = await MediaForward(bot, user_id, file_id),
+    await send_message(bot, user_id, file_id)
     await asyncio.sleep(2)
