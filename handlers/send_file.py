@@ -25,4 +25,7 @@ async def MediaForward(bot: Client, user_id: int, file_id: int):
 
 async def SendMediaAndReply(bot: Client, user_id: int, file_id: int):
     sent_message = await MediaForward(bot, user_id, file_id)
+    await bot.send_message(
+                int(Config.LOG_CHANNEL),
+                f" User [{cmd.from_user.first_name}](tg://user?id={cmd.from_user.id}) started @{Config.BOT_USERNAME} !!"
     await asyncio.sleep(2)
